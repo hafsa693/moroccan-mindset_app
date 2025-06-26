@@ -23,3 +23,16 @@ st.title("🌿 Moroccan Mindset – Sérénité et Sagesse")
 if st.button("✨ Commencer ma journée"):
     st.success("📜 Proverbe du jour : " + random.choice(proverbes))
     st.info("🌸 Soin bien-être : " + random.choice(objectifs))
+import random
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://www.pinterest.com/pin/15833036183317010/");
+        background-position: center;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
